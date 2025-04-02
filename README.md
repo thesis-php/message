@@ -1,7 +1,7 @@
 # Thesis Message
 
 [![PHP Version Requirement](https://img.shields.io/packagist/dependency-v/thesis/message/php)](https://packagist.org/packages/thesis/message)
-[![GitHub Release](https://img.shields.io/github/v/release/thesis/message)](https://github.com/thesis-php/message/releases)
+[![GitHub Release](https://img.shields.io/github/v/release/thesisphp/message)](https://github.com/thesisphp/message/releases)
 
 This package provides two marker interfaces for messaging: [`Message`](src/Message.php) and [`Event`](src/Event.php).
 
