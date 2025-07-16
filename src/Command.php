@@ -5,8 +5,9 @@ declare(strict_types=1);
 namespace Thesis\Message;
 
 /**
- * A marker interface for commands. Commands have one handler by definition.
- * A command handler should not return a result.
+ * An interface for commands.
+ * A command is routed to a single handler.
+ * Command handler does not return a result (`null` or `void`).
  *
  * @api
  * @extends Message<null>

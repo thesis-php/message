@@ -5,9 +5,9 @@ declare(strict_types=1);
 namespace Thesis\Message;
 
 /**
- * A marker interface for messages. For queries, `TResult` specifies the expected handler result type.
+ * A common interface for messages: commands, events, calls.
  *
  * @api
- * @template-covariant TResult = mixed
+ * @template-covariant TResult
  */
 interface Message {}

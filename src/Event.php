@@ -5,8 +5,9 @@ declare(strict_types=1);
 namespace Thesis\Message;
 
 /**
- * A marker interface for events. Events might have zero to many listeners.
- * Event listeners must not return a result.
+ * An interface for events.
+ * Zero to many listeners might be subscribed to a given event.
+ * Event listener does not return a result (`null` or `void`).
  *
  * @api
  * @extends Message<null>
